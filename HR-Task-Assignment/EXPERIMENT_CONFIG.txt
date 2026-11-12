@@ -1,0 +1,7 @@
+Problem sizes: Small=10, Medium=25, Large=50
+Runs per algorithm/size: 5
+HR weights: alpha(cost)=0.60, beta(speed)=0.40
+Base seed: 2026
+GA: population=60, iterations=150, crossover=0.80, mutation=1/N, elitism=2
+PSO: particles=50, iterations=200, c1=1.70, c2=1.70, w=0.72, velocity_clip=0.50
+ACO: ants=25, iterations=120, alpha=1.0, beta=1.0, rho=0.90, Q=10000, elite_fraction=0.20
